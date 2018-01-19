@@ -6,7 +6,10 @@ This project is a refresher on my use and knowledge of JavaScript. Here I have b
 
 1. JavaScript
 2. HTML
+3. Jasmine (testing)
 
 ## How it works
+
+open SpecRunner.html
 
 ## Project reflections
