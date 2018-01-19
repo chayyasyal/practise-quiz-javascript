@@ -8,6 +8,5 @@ describe("Trivia Quiz Questions", function(){
 
 describe('Hello world', function() {
   it('says hello', function() {
-
   });
 });
