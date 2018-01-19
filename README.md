@@ -10,6 +10,6 @@ This project is a refresher on my use and knowledge of JavaScript. Here I have b
 
 ## How it works
 
-open SpecRunner.html
+open SpecRunner.html for code to run in your browser
 
 ## Project reflections
