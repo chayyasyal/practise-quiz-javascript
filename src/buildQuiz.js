@@ -10,8 +10,6 @@ function buildQuiz(){
 
     myQuestions.forEach(
       (currentQuestion, questionNumber) => {
-        
-
         const answers = []
 
         for(letter in currentQuestion.answers){
@@ -35,7 +33,7 @@ function buildQuiz(){
 
 quizContainer.innerHTML = output.join('');
 
-}
+};
 
 function showResults(){}
 //show results straight away

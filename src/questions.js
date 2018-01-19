@@ -1,3 +1,12 @@
+function questions(){
+  return "question:";
+}
+
+
+
+
+
+
 function helloWorld(){
     return "hello world";
 }
