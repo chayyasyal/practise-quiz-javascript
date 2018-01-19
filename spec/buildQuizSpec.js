@@ -4,5 +4,4 @@ describe("Trivia Quiz", function(){
   beforeEach(function(){
     quiz = new Quiz();
   });
-
 })
