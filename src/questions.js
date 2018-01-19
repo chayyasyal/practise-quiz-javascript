@@ -1,9 +1,9 @@
 function helloWorld(){
-    return "hello world!";
+    return "hello world";
 }
 
-helloWorld.prototype.helloWorld = function (toGreet){
-  return this.sayHello() + '' toGreet;
+helloWord.prototype.helloWorld = function (toGreet){
+return this.sayHello() + '' to Greet;
 };
 
 helloWorld.prototype.helloWorld = function (){

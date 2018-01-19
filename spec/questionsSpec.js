@@ -6,7 +6,8 @@ describe("Trivia Quiz Questions", function(){
   });
 })
 
-describe('Hello world', function() {
-  it('says hello', function() {
+  describe('Hello World', function() {
+    it('says hello', function() {
+      expect('hello world').toContain('hello world');
+    });
   });
-});

@@ -1,28 +1,31 @@
-function buildQuiz(){}
+function buildQuiz(){
+  const output = [];
 
-buildQuiz();
+  for(letter in currentQuestion.answers){
+    buildQuiz();
+    //display quiz
 
-submitButton.addEventListener('click', showResults);
+    submitButton.addEventListener('click', showResults);
+    //click submit, show results
 
-const output = []
+    myQuestions.forEach(
+      (currentQuestion, questionNumber) => {
+        
 
-myQuestions.forEach(
-  (currentQuestion, questionNumber) => {
+        const answers = []
 
-    const answers = []
+        for(letter in currentQuestion.answers){
 
-    for(letter in currentQuestion.answers){
+          answers.push(
+            <label>
+            <input type="radio" name="question {questionNumber}"
 
-      answers.push(
-        `<label>
-        <input type="radio" name="question {questionNumber}"
       value="{letter}" >
-             {letter} :
-             {currentQuestion.answers[letter]}
-            </label>`
-      );
-    }
-
+                 {letter} :
+                 {currentQuestion.answers[letter]}
+                </label>
+  };
+}
     output.push(
       <div class= "question"> {currentQuestion.question}</div>
       <div class="answers"> {answers.join('')} </div>
@@ -35,3 +38,4 @@ quizContainer.innerHTML = output.join('');
 }
 
 function showResults(){}
+//show results straight away
